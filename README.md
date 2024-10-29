@@ -9,8 +9,8 @@ If this repository is empty, it means the competition has not yet started. Check
 ## What is Rust?
 
 Well you might want to check out a cheat sheet... Here are two:
-[https://cheats.rs/]
-[https://dev.to/moekatib/the-completesh-rust-cheat-sheet-4fnn]
+https://cheats.rs/
+https://dev.to/moekatib/the-completesh-rust-cheat-sheet-4fnn
 
 ## Structure
 
@@ -24,7 +24,7 @@ To run a specific solution:
 
 1. Navigate to the problem directory:
    ```bash
-   cd basketball-1on1  # or other problem directory
+   cd basketballoneonone  # or other problem directory
    ```
 
 2. Run the solution:
