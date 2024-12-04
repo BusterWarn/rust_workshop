@@ -246,6 +246,38 @@ let num = "42".parse::<i32>().unwrap();
 let str = num.to_string();
 ```
 
+## Looping through strings
+
+```rust
+let text = String::from("Hello");
+
+// Iterate over characters
+for c in text.chars() {
+    println!("{}", c);
+}
+
+// Iterate with index
+for (i, c) in text.chars().enumerate() {
+    println!("Position {}: {}", i, c);
+}
+
+// Iterate over bytes
+for b in text.bytes() {
+    println!("{}", b);
+}
+
+// Split into words
+let sentence = String::from("Hello World");
+for word in sentence.split_whitespace() {
+    println!("{}", word);
+}
+
+// Get character at position (note: O(n) operation)
+if let Some(c) = text.chars().nth(1) {
+    println!("Second character: {}", c);
+}
+```
+
 ## Common Collections
 ```rust
 use std::collections::{HashSet, VecDeque, BinaryHeap};
